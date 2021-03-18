@@ -1,0 +1,82 @@
+.cardScore {
+    border: 1px solid black;
+    width: 20rem;
+    height: 13rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.cardScoreTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardScoreImg {
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.cardScoreH2 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+.cardScoreInfo {
+    display: flex;
+    justify-content: space-around;
+}
+.cardScoreFooter {
+    margin-left: 3rem;
+}
+.cardScoreFooterImg {
+    width: 13rem;
+    height: 5rem;
+}
+.blinkS {
+    border: 1px solid black;
+    background-color: rgb(48, 206, 48);
+    width: 3rem;
+    text-align: center;
+    -webkit-animation: blink 1s linear infinite;
+}
+.blinkA {
+    border: 1px solid black;
+    background-color: rgb(126, 221, 126);
+    width: 3rem;
+    text-align: center;
+    -webkit-animation: blink 1s linear infinite;
+}
+.blinkB {
+    border: 1px solid black;
+    background-color: rgb(156, 238, 156);
+    width: 3rem;
+    text-align: center;
+    -webkit-animation: blink 1s linear infinite;
+}
+.blinkC {
+    border: 1px solid black;
+    background-color: rgb(233, 203, 36);
+    width: 3rem;
+    text-align: center;
+    -webkit-animation: blink 1s linear infinite;
+}
+.blinkF {
+    border: 1px solid black;
+    background-color: rgb(233, 94, 52);
+    width: 3rem;
+    text-align: center;
+    -webkit-animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        border: 1px solid pink;
+        color: #00a039;
+    }
+    100% {
+        border: 1px solid pink;
+        color: #000;
+    }
+}

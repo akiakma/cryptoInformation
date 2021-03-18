@@ -1,0 +1,213 @@
+.chart {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3rem;
+}
+.chart-Component {
+    height: 100vh;
+    margin-top: 3rem;
+}
+.chart_list {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.chart-searchSide {
+    border-top: 1px solid rgb(250, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+.upbit-binanceDiv {
+    display: flex;
+}
+.upbitLogoDiv {
+    margin-top: 0.05rem;
+    text-align: center;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(231, 191, 14);
+}
+.upbitLogoImg {
+    border-radius: 0.3rem;
+    width: 3rem;
+}
+.binanceLogoImg {
+    background-color: black;
+    border-radius: 5rem;
+    width: 6rem;
+}
+.inputSearch {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(231, 226, 226);
+}
+.inputSearch:focus {
+    outline: none;
+}
+.chart_list {
+    border-top: 1px solid rgb(250, 235, 235);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+    width: 700px;
+    min-width: 600px;
+    height: 80%;
+}
+.chart_list_head {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.3rem;
+    height: 2rem;
+}
+
+.chart_list_price:hover {
+    cursor: pointer;
+}
+.chart_list_change:hover {
+    cursor: pointer;
+}
+.chart_list_volume:hover {
+    cursor: pointer;
+}
+.Coins {
+    background-color: #f5f7fa;
+    height: calc(100% - 50px);
+    overflow: auto;
+}
+/*코인 목록들*/
+
+.coin_list_change {
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.semiPrice {
+    margin-top: -1rem;
+}
+.coin_list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaf0;
+    height: 3rem;
+}
+.coin_list:hover {
+    background-color: rgb(235, 226, 226);
+    cursor: pointer;
+}
+.pTagbold {
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+}
+.semiCode {
+    font-size: 0.7rem;
+    color: rgb(134, 132, 132);
+    font-weight: 300;
+}
+.semiPrice {
+    font-size: 0.7rem;
+}
+.coinImg {
+    background-image: url("https://static.upbit.com/logos/ETH.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.9rem;
+}
+.coin_list_name {
+    width: 12rem;
+    display: flex;
+    margin-left: 0rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coin_list_name_children {
+    width: 7rem;
+}
+.coin_list_price {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -3rem;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+}
+
+.coin_list_volume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    width: 6.5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.FALL * {
+    color: #7878e3 !important;
+}
+.RISE * {
+    color: #f14f4f !important;
+}
+.chart_list_price {
+    border: 1px solid black;
+}
+.chart_list_volumeone {
+    font-weight: bold;
+}
+.chart_list_volumetwo {
+    font-weight: bold;
+}
+.chart_list_pricethree {
+    font-weight: bold;
+}
+.chart_list_pricefour {
+    font-weight: bold;
+}
+.chart_list_changefive {
+    font-weight: bold;
+}
+.chart_list_changesix {
+    font-weight: bold;
+}
+
+.kimprice {
+    font-size: 0.5rem;
+}
+.marqueeStyle {
+}
+.chart-header-second {
+    display: flex;
+}
+.binanceBitcoinPremium {
+    font-size: 0.6rem;
+}
+.binanceBitcoinPrice {
+    font-size: 0.6rem;
+}
+.chart-header-second {
+}
+.chart-header-h2 {
+    display: block;
+    width: 15rem;
+}
+.chart-header-div {
+}
+
+/* @keyframes myAnimation {
+    0% {
+        border: 1px solid white;
+    }
+    100% {
+        border: none;
+    }
+}
+.chart_header_number {
+    animation: myAnimation 1s infinite;
+} */
