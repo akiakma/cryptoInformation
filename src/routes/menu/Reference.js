@@ -123,8 +123,7 @@ const data = [
         key: "16",
         website: "코인판",
         address: "www.coinpan.com",
-        explanation:
-            "상식이 통하지않는 암호화폐 판에서 인간지표로 활용하기좋은 커뮤니티.",
+        explanation: "암호화폐 커뮤니티.",
     },
 ];
 
